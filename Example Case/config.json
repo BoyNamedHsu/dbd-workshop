@@ -1,0 +1,24 @@
+{
+	"name": "A Case of Stolen Candy",
+	"author": "Grandma Hsu",
+	"difficulty": "Medium",
+    "concepts": ["GROUP BY"],
+    "database": "halloween",
+	"lockedTables": ["neighborhood", "trick_or_treaters", "candies_taken"],
+    "evidenceFiles": ["crime scene.jpg"],
+    "previewImage": "police report 1x1.png",
+    "culpritName": "Candy Georgino",
+    "culpritArrestImage": "culprit.jpg",
+    "arrestWarrant": "warrant.png",
+    "voiceMessage": "message from grandma.mp3",
+    "voiceMessageTranscript": "message from grandma transcript.txt",
+    "queryHints": [
+        "We should first find the total\namount of items each suspect\nhas taken.",
+        "We can find this by applying a\nGROUP BY on the names and items taken\nof each trick-or-treater.",
+        "We can use the COUNT function\nto find the number of items\neach trick-or-treater has taken.",
+        "We should then find the total\namount of items they can take\nbased on the households they've\nbeen to, and compare the results!"
+    ],
+    "caseHints": [
+        "It seems like you can only take\none of each type of item offered\nby each household!"
+    ]
+}
