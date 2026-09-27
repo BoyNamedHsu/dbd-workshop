@@ -1,3 +1,6 @@
+"""
+Utility functions for basic SQL commands.
+"""
 import random
 import sqlite3
 from pathlib import Path
