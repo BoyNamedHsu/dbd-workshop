@@ -1,0 +1,30 @@
+##
+# Sections copied from https://github.com/github/gitignore/blob/main/Python.gitignore
+##
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[codz]
+*$py.class
+
+# Environments
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+##
+# Custom sections
+##
+
+# Our db file
+Scripts/halloween
+
+# Script build artifacts
+Scripts/config.json
+Scripts/db_dump.txt
+Scripts/case_db*

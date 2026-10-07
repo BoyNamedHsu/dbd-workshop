@@ -9,24 +9,28 @@ In order to file a report, you'll need to create a `json` file in a separate fol
 
 ```json
 {
-	"name": "Case Name Here", // Required
-	"author": "Your Name Here", // Optional
-	"difficulty": "Easy/Medium/Hard", // Optional
-    "concepts": ["GROUP BY", "HAVING", "etc"], // Optional
-    "database": "Database Name Here", // Required
-	"lockedTables": ["table1", "table2", "etc"], // Optional (Recommended)
-    "evidenceFiles": ["evidence.jpg"], // Required
-    "evidenceAudioFiles": ["evidence.mp3"], // Optional
-    "previewImage": "police report 1x1.png", // Optional (Recommended)
-    "culpritName": "Culprit Name Here", // Required
-    "culpritArrestImage": "culprit.jpg", // Optional
-    "arrestWarrant": "warrant.png", // Optional
-    "voiceMessage": "message.mp3", // Optional
-    "voiceMessageTranscript": "message transcript.txt", // Optional
-    "queryHints": [], // Optional
-    "caseHints": [] // Optional
+  "name": "Case Name Here", // Required
+  "author": "Your Name Here", // Optional
+  "difficulty": "Easy/Medium/Hard", // Optional
+  "concepts": ["GROUP BY", "HAVING", "etc"], // Optional
+  "database": "Database Name Here", // Required
+  "lockedTables": ["table1", "table2", "etc"], // Optional (Recommended)
+  "evidenceFiles": ["evidence.jpg"], // Required
+  "evidenceAudioFiles": ["evidence.mp3"], // Optional
+  "previewImage": "police report 1x1.png", // Optional (Recommended)
+  "culpritName": "Culprit Name Here", // Required
+  "culpritArrestImage": "culprit.jpg", // Optional
+  "arrestWarrant": "warrant.png", // Optional
+  "voiceMessage": "message.mp3", // Optional
+  "voiceMessageTranscript": "message transcript.txt", // Optional
+  "queryHints": [], // Optional
+  "caseHints": [] // Optional
 }
 ```
+
+> [!WARNING]
+> The `//` comments are not legal in `json` files and are used exclusively for illustrative purposes. You can copy this [`config.json`](Example%20Case/config.json) as a starting point or generate it in [Scripts](Scripts/).
+
 One of the required fields is the name of a **SQLite3 database file** that should be provided in the same folder as this `json` file. This database file can be created any way you want! The database file for [this case](https://steamcommunity.com/sharedfiles/filedetails/?id=3807683717) was created using a python script which can be found in the [Scripts](Scripts/) folder.
 
 Another requirement is at least one image file that can be used as evidence. This image file should also be in the same folder as the `json` file. 
