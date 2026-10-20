@@ -48,5 +48,3 @@ The most important file for each case is a `json` file with the fields below. Yo
 | `voiceMessageTranscript` | The transcript of the voice message. |
 | `queryHints` | A list of hints describing how SQL concepts should be used for this case. |
 | `caseHints` | A list of hints describing what should be solved in general. |
-
-**Note:** For `queryHints` and `caseHints` to render properly, you'll need to add newline characters (`\n`) between sentences. See `queryHints` in [config.json](/Example%20Case/config.json) as an example. 
