@@ -55,6 +55,10 @@ Once you open the _Custom Cases_ panel, your case should appear! You can click _
 
 ![Custom Cases Panel](Images/Screenshots/Custom%20Cases.jpg)
 
+You can also right click on the _Custom Cases_ icon to refresh any cases you've updated since you've opened _copOS_.
+
+![Refresh Cases](Images/Screenshots/Refresh.png)
+
 ## Step 3: Upload Your Case
  
 Once you've confirmed everything works as expected, you can click _Upload Case_ to upload the case to the Steam Workshop.
