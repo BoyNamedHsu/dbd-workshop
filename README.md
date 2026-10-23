@@ -24,7 +24,10 @@ In order to file a report, you'll need to create a `json` file in a separate fol
     "voiceMessage": "message.mp3", // Optional
     "voiceMessageTranscript": "message transcript.txt", // Optional
     "queryHints": [], // Optional
-    "caseHints": [] // Optional
+    "caseHints": [], // Optional
+    "hiddenTables": ["table3"], // Optional (For Custom Websites)
+    "assetBundle": "Website", // Optional (For Custom Websites)
+    "websites": ["website.com"], // Optional (For Custom Websites)
 }
 ```
 One of the required fields is the name of a **SQLite3 database file** that should be provided in the same folder as this `json` file. This database file can be created any way you want! The database file for [this case](https://steamcommunity.com/sharedfiles/filedetails/?id=3807683717) was created using a python script which can be found in the [Scripts](Scripts/) folder.
@@ -32,6 +35,8 @@ One of the required fields is the name of a **SQLite3 database file** that shoul
 Another requirement is at least one image file that can be used as evidence. This image file should also be in the same folder as the `json` file. 
 
 You can head to the [Example Case](Example%20Case/) folder for a detailed description of each field within this `json` file. This folder contains the full contents of [this case](https://steamcommunity.com/sharedfiles/filedetails/?id=3807683717) in the Steam Workshop.
+
+If you want to make your own websites, head to [Custom Websites](Custom%20Websites/) for more information!
 
 ## Step 2: Submit Your Case
 Once you're done with your case report, move the folder to the directory listed below.

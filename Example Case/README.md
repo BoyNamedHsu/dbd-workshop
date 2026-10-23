@@ -20,7 +20,10 @@ The most important file for each case is a `json` file with the fields below. Yo
     "voiceMessage": "message.mp3", // Optional
     "voiceMessageTranscript": "message transcript.txt", // Optional
     "queryHints": [], // Optional
-    "caseHints": [] // Optional
+    "caseHints": [], // Optional
+    "hiddenTables": ["table3"], // Optional (For Custom Websites)
+    "assetBundle": "Website", // Optional (For Custom Websites)
+    "websites": ["website.com"], // Optional (For Custom Websites)
 }
 ```
 **Note:** Comments are not legal in `json` files and are used exclusively for illustrative purposes.
@@ -48,3 +51,6 @@ The most important file for each case is a `json` file with the fields below. Yo
 | `voiceMessageTranscript` | The transcript of the voice message. |
 | `queryHints` | A list of hints describing how SQL concepts should be used for this case. |
 | `caseHints` | A list of hints describing what should be solved in general. |
+| `hiddenTables` | A list of tables that should be hidden from the player and downloaded through a website. |
+| `assetBundle` | The asset bundle containing websites. Head to [Custom Websites](Custom%20Websites/) to learn more!|
+| `websites` | A list of URLs for websites in the asset bundle. |

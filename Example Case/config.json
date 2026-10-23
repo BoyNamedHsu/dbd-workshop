@@ -21,5 +21,8 @@
     ],
     "caseHints": [
         "It seems like you can only take one of each type of item offered by each household!"
-    ]
+    ],
+    "hiddenTables": ["secret_table"],
+    "assetBundle": "test",
+    "websites": ["example.com", "example.com/jumpscare"]
 }
