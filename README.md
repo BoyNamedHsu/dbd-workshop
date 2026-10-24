@@ -1,5 +1,5 @@
 # Database Detective: Official Workshop Guide
-![Alt text](Images/Screenshots/Workshop%20Banner.jpg)
+![Banner](Images/Screenshots/Workshop%20Banner.jpg)
 Want to report a crime? Just submit a case to the Custom Crimes Division! This police division is responsible for solving crimes reported by ordinary law-abiding citizens of Los Zorangeles like yourself.
 
 Submitting a police report is easy, so don't be intimidated! Once you follow these simple steps, your case will be available for all our Database Detectives to solve.
