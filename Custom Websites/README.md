@@ -81,7 +81,7 @@ This function opens a new web page. In the button below, `example.com/jumpscare`
 
 ![LaunchInnerSite](/Images/Screenshots/LaunchInnerSite.png)
 
-The `CursorChangerExist.cs` script should be attached to this button. This is the same as `CursorChanger.cs`, but changes the cursor back to default when clicked.
+The `CursorChangerExist.cs` script should be attached to this button. This is the same as `CursorChanger.cs`, but changes the cursor back to normal when clicked.
 
 ## Exporting and Testing
 Unity allows for importing and exporting custom object files through something called `AssetBundles`.
